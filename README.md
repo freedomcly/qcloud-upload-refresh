@@ -4,7 +4,7 @@ qcloud upload and refresh.
 
     npm install qcloud-upload-refresh
 
-# 初始化
+# 配置
 
 首先，在项目根目录下新建文件`cdn.config.js`
 
