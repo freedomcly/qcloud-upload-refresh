@@ -20,7 +20,7 @@ dir.files(base, (err, files) => {
     // for cross platform: windows and linux
     const key = file.replace(base, cdnPath).split(path.sep).join('/')
     const tempArr = key.split('/')
-    const fileName = tempArr[tempArr.length - 1]
+    const fileName = tempArr.slice(2).join('/')
 
     cos.sliceUploadFile({
       Bucket: bucket,
@@ -38,6 +38,7 @@ dir.files(base, (err, files) => {
       }, (res) => {
         console.log('cdn upload and refresh success')
         console.log(`${cdnDomain}/${cdnPath}/${fileName}`)
+
       })
     })
   })
