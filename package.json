@@ -12,10 +12,6 @@
     "upload",
     "refresh"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/freedomcly/qcloud-upload-refresh.git"
-  },
   "dependencies": {
     "cos-nodejs-sdk-v5": "^2.3.6",
     "node-dir": "^0.1.17",
