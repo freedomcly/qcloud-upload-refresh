@@ -1,4 +1,4 @@
-qcloud upload and refresh.
+腾讯云上传刷新工具。
 
 # 安装
 

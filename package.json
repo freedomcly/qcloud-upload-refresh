@@ -1,9 +1,10 @@
 {
   "name": "qcloud-upload-refresh",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "qcloud upload and refresh",
   "main": "index.js",
   "author": "freedomcly",
+  "repository": "https://github.com/freedomcly/qcloud-upload-refresh.git",
   "keywords": [
     "tencent cloud",
     "qcloud",
