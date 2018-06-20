@@ -1,6 +1,6 @@
 {
   "name": "qcloud-upload-refresh",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "qcloud upload and refresh",
   "main": "index.js",
   "author": "freedomcly",
@@ -14,7 +14,7 @@
     "refresh"
   ],
   "dependencies": {
-    "cos-nodejs-sdk-v5": "^2.3.6",
+    "cos-nodejs-sdk-v5": "2.2.6",
     "node-dir": "^0.1.17",
     "qcloud-cdn-node-sdk": "^1.0.0"
   }
