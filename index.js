@@ -22,6 +22,12 @@ dir.files(base, (err, files) => {
     const tempArr = key.split('/')
     const fileName = tempArr.slice(2).join('/')
 
+    if (fileName.slice(0, 1) === '.') {
+      console.log('refuse upload')
+      console.log(`${file}`)
+      return
+    }
+
     cos.sliceUploadFile({
       Bucket: bucket,
       Region: region,

@@ -1,6 +1,6 @@
 {
   "name": "qcloud-upload-refresh",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "qcloud upload and refresh",
   "main": "index.js",
   "author": "freedomcly",
